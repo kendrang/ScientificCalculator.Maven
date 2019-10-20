@@ -7,7 +7,7 @@ import org.junit.Test;
 
 /**
  * Created by leon on 2/9/18.
- */
+ *//*
 public class TestMainApplication {
     // TESTING MULTIPLICATION
 
@@ -15,23 +15,23 @@ public class TestMainApplication {
     public void testcalcMultiply (){
         //given
       CoreMethods testMethods = new CoreMethods();;
-        double a = 2;
-        double b = 4;
-        double expected = 8;
+        int a = 2;
+        int b = 4;
+        int expected = 2 * 4;
         //when
-        double outcome = testMethods.calcMultiply(a,b);
+        int outcome = (int) testMethods.calcMultiply(a,b);
         //then
         Assert.assertEquals(expected,outcome); }
 
     @Test
     public void testcalcMultiply2 (){
         //given
-        CoreMethods testMethods = new CoreMethods();;
-        double a = 5;
-        double b = 5;
-        double expected = 25;
+        CoreMethods testMethods = new CoreMethods();
+        int a = 5;
+        int b = 5;
+        int expected = 5 * 5;
         //when
-        double outcome = testMethods.calcMultiply(a,b);
+        int outcome = (int) testMethods.calcMultiply(a,b);
         //then
         Assert.assertEquals(expected,outcome); }
 
@@ -41,9 +41,9 @@ public class TestMainApplication {
         CoreMethods testMethods = new CoreMethods();
         int a = 10;
         int b = 5;
-        Integer expected = 50;
+        int expected = 10 * 5;
         //when
-        Integer outcome = testMethods.calcMultiply(a,b);
+        int outcome = (int) testMethods.calcMultiply(a,b);
         //then
         Assert.assertEquals(expected,outcome); }
 
@@ -52,21 +52,21 @@ public class TestMainApplication {
     public void testcalcSquared (){
         //given
         CoreMethods testMethods = new CoreMethods();
-        int a = 10;
-        Integer expected = 100;
+        double a = 10;
+        double expected = 10*10 ;
         //when
-        Integer outcome = testMethods.calcSquared(a);
+        double outcome = (CoreMethods.calcSquared(a));
         //then
-        Assert.assertEquals(expected,outcome); }
-
+        Assert.assertEquals(expected,outcome); } }
+/*
     @Test
     public void testcalcSquared2 (){
         //given
         CoreMethods testMethods = new CoreMethods();
         int a = 5;
-        Integer expected = 25;
+        int expected = 5 * 5;
         //when
-        Integer outcome = testMethods.calcSquared(a);
+        int outcome = testMethods.calcSquared(a);
         //then
         Assert.assertEquals(expected,outcome); }
 
@@ -75,9 +75,9 @@ public class TestMainApplication {
         //given
         CoreMethods testMethods = new CoreMethods();
         int a = 2;
-        Integer expected = 4;
+        int expected = 4;
         //when
-        Integer outcome = testMethods.calcSquared(a);
+        int outcome = testMethods.calcSquared(a);
         //then
         Assert.assertEquals(expected,outcome); }
 
@@ -119,3 +119,4 @@ public class TestMainApplication {
         //then
         Assert.assertEquals(expected,outcome);}
 }
+*/
