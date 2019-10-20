@@ -7,29 +7,29 @@ public class CoreMethods {
     public  double calcMultiply (double a , double b ){
         return a * b ; }
 //2 calcSquared
-    public static double calcSquared (double a){
+    public  double calcSquared (double a){
         return a * a; }
 //3 calcToPower
-    public static Double calcToPower (Double a , Double b){
+    public double calcToPower (double a , double b){
         return Math.pow(a,b); }
 //4 calcDiv
-    public static Double calcDiv(Double a, Double b) {
+    public double calcDiv(double a, double b) {
         double result =a / b;
     return result; }
 //5 calcSqrt
-    public static Double calcSqrt (Double a) {
+    public double calcSqrt (double a) {
         return Math.sqrt(a); }
 //6 calcInverse
-    public static Double calcInverse(Double a) {
+    public double calcInverse(double a) {
         return 1 / a; }
 //7 calcAdd
-    public static Double calcAdd (Double a, Double b) {
+    public double calcAdd (double a, double b) {
         return a + b; }
 //8 calcSub
-    public static Double calcSub (Double a, Double b) {
+    public double calcSub (double a, double b) {
         return a - b; }
 //9 calcPosNeg
-    public static Double calcPosNeg (Double a) {
+    public double calcPosNeg (double a) {
         return a * -1; }
 }
 
