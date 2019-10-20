@@ -14,7 +14,8 @@ public class CoreMethods {
         return Math.pow(a,b); }
 //4 calcDiv
     public static Double calcDiv(Double a, Double b) {
-        return a / b; }
+        double result =a / b;
+    return result; }
 //5 calcSqrt
     public static Double calcSqrt (Double a) {
         return Math.sqrt(a); }

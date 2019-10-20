@@ -15,13 +15,14 @@ public class TestMainApplication {
     public void testcalcMultiply (){
         //given
       CoreMethods testMethods = new CoreMethods();;
-        int a = 2;
-        int b = 4;
-        int expected = 2 * 4;
+        double a = 2;
+        double b = 4;
+        double expected = a * b;
         //when
-        int outcome = (int) testMethods.calcMultiply(a,b);
+        double outcome = testMethods.calcMultiply(a,b);
         //then
-        Assert.assertEquals(expected,outcome); }
+        assertEquals(expected,outcome,.00);}
+}
 
     @Test
     public void testcalcMultiply2 (){
